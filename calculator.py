@@ -42,3 +42,8 @@ def divide(a, b):
 # testing
 print(f"20 / 4 = {divide(20, 4)}")
 print(f"10 / 0 = {divide(10, 0)}")
+
+
+def power(base, exponent):
+    """Return base raised to the power of exponent."""
+    return base ** exponent
